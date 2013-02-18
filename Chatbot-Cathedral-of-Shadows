@@ -1096,7 +1096,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
 
     badQualityCommand.prototype.functionality = function() {
       var msg;
-      msg = "Flagged for bad sound quality. Where do you get your music, Adachi's house? Don't play this low quality tune again or we'll send Mara to violate you!!";
+      msg = "Local sound demons detected. Please expunge that white noise or whatever it is from your COMP or other summoning device. If not, there may be lasting damages from a Black Viper spell.";
       return API.sendChat(msg);
     };
 
