@@ -964,7 +964,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
 
     themeCommand.prototype.functionality = function() {
       var msg;
-      msg = "See the world of demons and darkness throught the lens of the Kagutsuchi, Tico, and Gin along with the Cathedral ministers as they fuse the plug with musics from The Shim Megami Tensei series and its subsidiaries. And some others of course... hee hee hee";
+      msg = "See the world of demons and darkness throught the lens of the Kagutsuchi, Tico, and Gin along with the Cathedral ministers as they fuse the plug with musics from The Shin Megami Tensei series and its subsidiaries. And some others of course... hee hee hee";
       return API.sendChat(msg);
     };
 
