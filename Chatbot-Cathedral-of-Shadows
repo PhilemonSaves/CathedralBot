@@ -78,7 +78,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
       }, {
         interval: 8,
         offset: 5,
-        msg: "Want to request a specific song? Please @Mention the DJ and we'll gladly oblige!"
+        msg: "Want to request a specific song? Please @Mention the DJ and we'll have your request completed."
       }
     ];
 
