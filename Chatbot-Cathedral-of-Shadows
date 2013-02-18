@@ -919,7 +919,7 @@
 
     themeCommand.prototype.functionality = function() {
       var msg;
-      msg = "Join Crimzen, Theodore and other guests as they DJ the best of Persona and Shin Megami Tensei music as well as the host's own :)";
+      msg = "See the world of demons and darkness throught the lens of the Kagutsuchi, Tico, and Gin along with the Cathedral ministers as they fuse the plug with musics from The Shim Megami Tensei series and its subsidiaries. And some others of course... hee hee hee";
       return API.sendChat(msg);
     };
 
