@@ -1285,7 +1285,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
       undoHooks();
       API.sendChat('Very well then.');
       data.implode();
-      return API.sendChat('HAvE a NiCE dEatH.');
+      return API.sendChat('HAve a ♱iCE dE♱♱H.');
     };
 
     return dieCommand;
