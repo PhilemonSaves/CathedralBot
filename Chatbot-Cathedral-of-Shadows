@@ -76,7 +76,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
         offset: 0,
         msg: "ERROR: This link has been intentionally broken. Please contract your local admins."
       }, {
-        interval: 9999,
+        interval: 8,
         offset: 5,
         msg: "Want to request a specific song? Please @Mention the DJ and we'll gladly oblige!"
       }
