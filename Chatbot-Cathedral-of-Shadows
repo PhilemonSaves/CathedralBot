@@ -74,7 +74,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
       {
         interval: 7,
         offset: 0,
-        msg: "This is your resident Velvet Room Attendant reminding you to come meet our other guests and join our Facebook group: https://www.facebook.com/TheVelvetRoomLobby"
+        msg: "ERROR: This link has been intentionally broken. Please contract your local admins."
       }, {
         interval: 9999,
         offset: 5,
