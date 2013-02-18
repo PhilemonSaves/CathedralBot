@@ -560,6 +560,9 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
           case "punish":
             resp = "Mod only command.  Punish a user in one of several methods.  For naughty users.  Syntax: punish @user";
             break;
+          case "fridge":
+            resp = "Check the fridge.  simply say 'fridge' or give on to someone else by saying 'fridge @user";
+            break;          
           case "/whywoot":
             resp = "DJ all day without throwing your life away clicking woot every 3 minutes.  Learn how and get the necessary tools";
             break;
@@ -670,9 +673,6 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
             break;
           case "/push":
             resp = "Mod only command.  Puts user on deck. Syntax: /push @user";
-            break;
-          case "fridge":
-            resp = "Check the fridge.  simply say 'fridge' or give on to someone else by saying 'fridge @user";
             break;
           default:
             resp = "That is nothing.  That is not a thing.";
@@ -789,7 +789,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
 
     return steakCommand;
 
-   })(Command);
+  })(Command);
 
   fridgeCommand = (function(_super) {
 
