@@ -671,7 +671,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
           case "/push":
             resp = "Mod only command.  Puts user on deck. Syntax: /push @user";
             break;
-          case "/fridge":
+          case "fridge":
             resp = "Check the fridge.  simply say 'fridge' or give on to someone else by saying 'fridge @user";
             break;
           default:
