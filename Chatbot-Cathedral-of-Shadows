@@ -1652,7 +1652,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
     whyMehCommand.prototype.functionality = function() {
       var msg;
       msg = "Reserve Mehs for songs that are a) off genre b) absolutely god awful or c) troll songs. ";
-      msg += "If you simply aren't feeling a song, then remain neutral. If you truly do not like the song, then you are permitted to meh, however; if you've never heard the song before, please give it a full listen first. ";
+      msg += "If you simply aren't into a song, then remain neutral. If you truly do not like the song, then you are permitted to meh, however; if you've never heard the song before, please give it a full listen first.";
       return API.sendChat(msg);
     };
 
