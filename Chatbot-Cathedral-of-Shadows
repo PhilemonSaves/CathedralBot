@@ -787,8 +787,50 @@
     };
 
     return steakCommand;
+  
+  })(Command);
+
+  fridgeCommand = (function(_super) {
+
+    __extends(fridgeCommand, _super);
+
+    function fridgeCommand() {
+      return fridgeCommand.__super__.constructor.apply(this, arguments);
+    }
+
+    fridgeCommand.prototype.init = function() {
+      this.command = 'fridge';
+      this.parseType = 'startsWith';
+      return this.rankPrivelege = 'user';
+    };
+
+    fridgeCommand.prototype.randomFridge = function() {
+      var r, fridges;
+      fridges = ["some steak croquettes from Souzai Daigoku. Nice and juicy", "a beef steak dinner from Junes. Dry and tough...", "a Fsteak? Did Marie make this?", "a failed attempt by Chie to make her own steaks. Looks like charcoal", "a Prodigy Platter from Wakatsu Restaurant. Get smarter while you digest", "a Wild-Duck Burger. This is so fattening", "the feast that Shinjiro made for the rest of SEES. You just entered the portal to the delicious dimension", "Mystery Food X! *vomits*"];
+      r = Math.floor(Math.random() * fridges.length);
+      return fridges[r];
+    };
+
+    fridgeCommand.prototype.functionality = function() {
+      var msg, fridge, fridgeName;
+      msg = this.msgData.message;
+      fridge = this.randomFridge();
+      if (msg.substring(6, 7) === "@") {
+        fridgeName = msg.substring(7);
+        if (fridgeName === '#Wolf Pup') {
+          return API.sendChat("No thanks I'll get fat :(");
+        } else {
+          return API.sendChat("Yo @" + fridgeName + ", " + this.msgData.from + " just gave you " + fridge + "!");
+        }
+      } else {
+        return API.sendChat("Yo @" + this.msgData.from + ", here is " + fridge + "!");
+      }
+    };
+
+    return fridgeCommand;
 
   })(Command);
+
 
   cookieCommand = (function(_super) {
 
