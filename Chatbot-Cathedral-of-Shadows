@@ -989,8 +989,9 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
     rulesCommand.prototype.functionality = function() {
       var msg;
       msg = "1) Allowable is as follows: MegaTen only Mon-Thurs, Anime/VGM/Tokusatsu/AMV Fri-Sat, Free Play Sun. All times based in GMT/UTC. ";
+      break;
       msg += "2) No super extended editions. Tracks with more than 4 loops or 10 minutes long = skip; UNLESS permission is granted by Manager/Host. ";
-      msg += "3) Try to WOOT most of the time. Leave MEHs for truly terrible tracks (like Trolling or Off-Topic)., ";
+      msg += "3) Try to WOOT most of the time. Leave MEHs for truly terrible tracks (like Trolling or Off-Topic). See "whymeh" for more details., ";
       msg += "4) Bring your best and enjoy your stay in the Cathedral of Shadows "
       return API.sendChat(msg);
     };
@@ -1652,7 +1653,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
     whyMehCommand.prototype.functionality = function() {
       var msg;
       msg = "Reserve Mehs for songs that are a) off genre b) absolutely god awful or c) troll songs. ";
-      msg += "If you simply aren't feeling a song, then remain neutral";
+      msg += "If you simply aren't feeling a song, then remain neutral. If you truly do not like the song, then you are permitted to meh, however; if you've never heard the song before, please give it a full listen first. ";
       return API.sendChat(msg);
     };
 
