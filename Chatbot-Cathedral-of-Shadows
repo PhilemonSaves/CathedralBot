@@ -74,7 +74,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
       {
         interval: 15,
         offset: 0,
-        msg: "ERROR: This link has been intentionally broken. Please contract your local admins."
+        msg: "ERROR: This link has been intentionally broken. Please contract your local administrators @ http://www.facebook.com/groups/ThecathedralofshadowsandSMT/."
       }, {
         interval: 10,
         offset: 5,
