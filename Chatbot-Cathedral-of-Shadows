@@ -72,11 +72,11 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
 
     settings.prototype.songIntervalMessages = [
       {
-        interval: 7,
+        interval: 15,
         offset: 0,
         msg: "ERROR: This link has been intentionally broken. Please contract your local admins."
       }, {
-        interval: 8,
+        interval: 10,
         offset: 5,
         msg: "Want to request a specific song? Please @Mention the DJ and we'll have your request completed."
       }
