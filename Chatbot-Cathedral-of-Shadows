@@ -651,7 +651,7 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
             resp = "Host only command.  Make pup skip songs when they are supposed to end (addresses triangles of death issue). Syntax: /forceskip [enable|disable]";
             break;
           case "/fb":
-            resp = "Links to The Velvet Room facebook page";
+            resp = "Links to The Cathedral of Shadows facebook page";
             break;
           case "/dclookup":
             resp = "Mod only command.  Looks up user for a log of their last disconnect. Syntax: /dclookup @USER";
@@ -1556,11 +1556,11 @@ Command, swapCommand, themeCommand, undoHooks, unhook, unhookCommand, unlockComm
     fbCommand.prototype.functionality = function() {
       var m, msg;
       m = Math.floor(Math.random() * this.msgs.length);
-      msg = this.msgs[m].replace('{fb}', 'https://www.facebook.com/TheVelvetRoomLobby');
+      msg = this.msgs[m].replace('{fb}', 'http://www.facebook.com/groups/ThecathedralofshadowsandSMT/');
       return API.sendChat(msg);
     };
 
-    fbCommand.prototype.msgs = ["Come meet our other guests and join our facebook group: {fb}"];
+    fbCommand.prototype.msgs = ["Enter our sanctuary and meet other ministers and fusionists.: {fb}"];
 
     return fbCommand;
 
