@@ -71,11 +71,11 @@
 
     settings.prototype.songIntervalMessages = [
       {
-        interval: 7,
+        interval: 15,
         offset: 0,
-        msg: "This is your resident Velvet Room Attendant reminding you to come meet our other guests and join our Facebook group: https://www.facebook.com/TheVelvetRoomLobby"
+        msg: "ERROR: This link has been intentionally broken. Please contract your local administrators @ http://www.facebook.com/groups/ThecathedralofshadowsandSMT/."
       }, {
-        interval: 9999,
+        interval: 10,
         offset: 5,
         msg: "Want to request a specific song? Please @Mention the DJ and we'll gladly oblige!"
       }
@@ -765,7 +765,7 @@
 
     steakCommand.prototype.randomSteak = function() {
       var r, steaks;
-      steaks = ["some steak croquettes from Souzai Daigoku. Nice and juicy", "a beef steak dinner from Junes. Dry and tough...", "a Fsteak? Did Marie make this?", "a failed attempt by Chie to make her own steaks. Looks like charcoal", "a Prodigy Platter from Wakatsu Restaurant. Get smarter while you digest", "a Wild-Duck Burger. This is so fattening", "the feast that Shinjiro made for the rest of SEES. You just entered the portal to the delicious dimension", "Mystery Food X! *vomits*"];
+      steaks = ["some steak croquettes from Souzai Daigoku. Nice and juicy", "a beef steak dinner from Junes. Dry and tough...", "a Fsteak? Did Marie make this?", "a failed attempt by Chie to make her own steaks. Looks like charcoal", "a Prodigy Platter from Wakatsu Restaurant. Get smarter while you digest", "a Wild-Duck Burger. This is so fattening", "the feast that Shinjiro made for the rest of SEES. You just entered the portal to the delicious dimension", "Mystery Food X! *vomits*", "...oh. Gouto-Douji ate your steak. Too bad for you."];
       r = Math.floor(Math.random() * steaks.length);
       return steaks[r];
     };
@@ -964,7 +964,7 @@
 
     themeCommand.prototype.functionality = function() {
       var msg;
-      msg = "Join Crimzen, Theodore and other guests as they DJ the best of Persona and Shin Megami Tensei music as well as the host's own :)";
+      msg = "See the world of demons and darkness throught the lens of the Kagutsuchi, Tico, and Gin along with the Cathedral ministers as they fuse the plug with musics from The Shin Megami Tensei series and its subsidiaries. And some others of course... hee hee hee";
       return API.sendChat(msg);
     };
 
@@ -988,9 +988,9 @@
 
     rulesCommand.prototype.functionality = function() {
       var msg;
-      msg = "1) Allowable is as follows: SMT music is a primary. However, most of the time, all Anime/VGM/Tokusatsu is permitted as well. AMVs are also allowed!";
-      msg += "2) No super extended editions. Tracks with more than 4 loops or 10 minutes long = skip, ";
-      msg += "3) Try to WOOT most of the time. Leave MEHs for truly terrible tracks, ";
+      msg = "1) Allowable is as follows: MegaTen only Mon-Thurs, Anime/VGM/Tokusatsu/AMV Fri-Sat, Free Play Sun. All times based in GMT/UTC";
+      msg += "2) Please keep your tracks within 8-9 minutes maximum, no multi-looping songs. UNLESS permission is granted by Hosts and Managers, ";
+      msg += "3) Try to WOOT most of the time. Leave MEHs for truly terrible tracks (like Trolling or Off-Topic). See whymeh for more details, ";
       msg += "4) Bring your best and enjoy your stay in the Cathedral of Shadows "
       return API.sendChat(msg);
     };
