@@ -77,7 +77,7 @@
       }, {
         interval: 10,
         offset: 5,
-        msg: "Want to request a specific song? Please @Mention the DJ and we'll gladly oblige!"
+        msg: "Want to hear a particular tune? @Mention the DJ and we'll summon your request."
       }
     ];
 
