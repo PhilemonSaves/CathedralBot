@@ -963,7 +963,7 @@
 
     themeCommand.prototype.functionality = function() {
       var msg;
-      msg = "See the world of demons and darkness throught the lens of the Kagutsuchi, Tico, and Gin along with the Cathedral ministers as they fuse the plug with musics from The Megami Tensei series and its Atlus cousins. And some others of course...hee-ho";
+      msg = "See the world of demons through the lens of the Kagutsuchi, Tico, and Gin along with the Cathedral ministers as they fuse the plug with musics from The Megami Tensei series and its Atlus cousins. And some others of course...Hee-Ho!";
       return API.sendChat(msg);
     };
 
