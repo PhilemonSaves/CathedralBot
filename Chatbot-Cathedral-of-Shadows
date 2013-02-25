@@ -963,7 +963,7 @@
 
     themeCommand.prototype.functionality = function() {
       var msg;
-      msg = "See the world of demons and darkness throught the lens of the Kagutsuchi, Tico, and Gin along with the Cathedral ministers as they fuse the plug with musics from The Shin Megami Tensei series and its Atlus cousins. And some others of course... hee hee hee";
+      msg = "See the world of demons and darkness throught the lens of the Kagutsuchi, Tico, and Gin along with the Cathedral ministers as they fuse the plug with musics from The Megami Tensei series and its Atlus cousins. And some others of course...hee-ho";
       return API.sendChat(msg);
     };
 
@@ -989,7 +989,7 @@
       var msg;
       msg = "MegaTen/Atlus (Published by and Remakes allowed) Mon-Thurs, ";
       msg += "Anime/VGM/Tokusatsu/AMV/Jpn/Korean Fri-Sat, Free Play Sun, ";
-      msg += "Keep tracks within 8-9 minutes maximum, no multi-looping songs, ";
+      msg += "keep tracks within 8-9 minutes maximum, no multi-looping songs. ";
       msg += "Enjoy your stay in the Cathedral of Shadows "
       return API.sendChat(msg);
     };
